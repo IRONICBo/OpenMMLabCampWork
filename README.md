@@ -14,8 +14,8 @@ Final: Epoch(val) [100][18]	accuracy_top-1: 97.3776
 
 Test mmcls in cifar10 dataset.
 
-- resnet50_8xb16_cifar10.py => config
-- slurm-285487.out => train and test log
-- model => https://www.dropbox.com/s/0srhbmgtiby2sw1/resnet50_8xb16_cifar10.pth?dl=0
+- resnet18_8xb16_cifar10.py => config
+- slurm-289406.out => train and test log
+- model => https://www.dropbox.com/s/j0vdegintlwec09/resnet18_8xb16_cifar10.pth?dl=0
 
-Final: Epoch(val) [50][625]	accuracy_top-1: 48.9300, accuracy_top-5: 93.2400
+Final: Epoch(val) [50][79]	accuracy_top-1: 94.9300, accuracy_top-5: 99.8200
