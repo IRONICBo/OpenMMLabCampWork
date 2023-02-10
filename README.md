@@ -36,3 +36,11 @@ Final: Epoch(val) [20][13]	bbox_mAP: 0.7868, bbox_mAP_50: 0.8989, bbox_mAP_75: 0
 
 ##### advance
 
+- coriander_yolov3_mobilenetv2.py => model config file
+- gen_image_sets.py => split dataset to train and test
+- labelme2voc.py => convert labelme json file to voc xml file
+- webcam_detect.py => detect coriander in webcam or screen
+- slurm-286514.out => train and test log
+- model => https://www.dropbox.com/s/tzbogtltd8jtln1/coriander_yolov3_mobilenetv2.pth?dl=0
+
+Final: Epoch(val) [30][176]	mAP: 0.9091, AP50: 0.9090
