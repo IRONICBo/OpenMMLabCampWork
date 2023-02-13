@@ -56,3 +56,11 @@ Final: Epoch(val) [30][176]	mAP: 0.9091, AP50: 0.9090
 - model => https://www.dropbox.com/s/ckogg0fw04wc609/pspnet_r50-d8_4xb2-40k_cityscapes-512x1024.pth?dl=0
 
 Final: Iter(test) [515/515]  aAcc: 99.1100  mIoU: 77.5000  mAcc: 79.5200
+
+##### advance
+
+- pspnet_r50-d8_512x512_20k_voc.py => model config file
+- split_dataset.py => split dataset to train and test
+- model => https://www.dropbox.com/s/ckogg0fw04wc609/pspnet_r50-d8_4xb2-40k_cityscapes-512x1024.pth?dl=0
+
+Final: Iter(test) [515/515]  aAcc: 99.1100  mIoU: 77.5000  mAcc: 79.5200
